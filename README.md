@@ -28,3 +28,14 @@ https://github.com/prettier/eslint-config-prettier#installation
 
 1、安裝插件 Prettier - Code formatter  
 2、Vscode -》 首选项 -》 设置（搜索 save）-》 勾选 Editor: Format On Save 即可
+
+#### 遇到的问题
+
+1、A：eslint extends 配置 prettier  
+Q：https://github.com/prettier/eslint-config-prettier#installation  
+2、A：'React' must be in scope when using JSX react/react-in-jsx-scope?  
+Q: https://stackoverflow.com/questions/42640636/react-must-be-in-scope-when-using-jsx-react-react-in-jsx-scope  
+3、A：eslint-plugin-react 报未指定 react 版本的 Warning: React version not specified in eslint-plugin-react settings.  
+Q：https://blog.csdn.net/keepfriend/article/details/100858645  
+4、Q：.eslintrc.js module is not defined  
+A：https://www.anycodings.com/questions/eslintrcjs-module-is-not-defined
