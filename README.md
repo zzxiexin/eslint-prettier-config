@@ -1,6 +1,6 @@
-### eslint && prettier && Git hooks
+### Eslint && Prettier && Git hooks
 
-#### prettier 设置
+#### Prettier 配置
 
 1、npm i prettier --save-dev  
 2、echo {}> .prettierrc.json  
@@ -9,7 +9,7 @@ https://www.prettier.cn/playground/#N4Igxg9gdgLgprEAuEAzArlMMCW0AEAEnADYkQDqEATi
 4、新建.prettierignore，配置忽略格式化的文件  
 5、npx prettier --write src/ 指定的文件夹代码格式化
 
-### eslint 安装
+### Eslint 配置
 
 1、npm i eslint --save  
 2、初始化配置文件 ./node_modules/.bin/eslint --init  
@@ -17,7 +17,7 @@ https://www.prettier.cn/playground/#N4Igxg9gdgLgprEAuEAzArlMMCW0AEAEnADYkQDqEATi
 4、可以安装 eslint-config-prettier，关闭某些和 prettier 不太兼容的规则  
 https://github.com/prettier/eslint-config-prettier#installation
 
-### Git hooks
+### Git hooks 配置
 
 1、npm install --save-dev husky lint-staged  
 2、npx husky install  
