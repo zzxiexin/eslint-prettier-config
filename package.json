@@ -47,10 +47,10 @@
     "prettier": "^2.7.1"
   },
   "lint-staged": {
-    "**/*.{js,jsx,ts,tsx}": [
+    "src/*.{js,jsx,ts,tsx}": [
       "npm run lint:fix"
     ],
-    "**/*.{css,less,scss,md,json}": [
+    "src/*.{css,less,scss,md,json}": [
       "npm run format"
     ]
   }
