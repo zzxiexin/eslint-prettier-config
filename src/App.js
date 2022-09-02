@@ -4,8 +4,7 @@ import './App.css'
 function App() {
   return (
     <div className='App'>
-      <div>1111</div>
-      <span>2222</span>
+      <div>222</div>
       <header className='App-header'>
         <img src={logo} className='App-logo' alt='logo' />
         <p>
