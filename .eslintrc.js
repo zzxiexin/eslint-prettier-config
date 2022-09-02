@@ -2,6 +2,7 @@ module.exports = {
   env: {
     browser: true,
     es2021: true,
+    node: true,
   },
   extends: ['eslint:recommended', 'plugin:react/recommended', 'prettier'],
   parserOptions: {
@@ -12,5 +13,13 @@ module.exports = {
     sourceType: 'module',
   },
   plugins: ['react'],
-  rules: {},
+  rules: {
+    'react/react-in-jsx-scope': 'off',
+  },
+
+  settings: {
+    react: {
+      version: 'detect',
+    },
+  },
 }
