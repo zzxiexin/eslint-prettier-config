@@ -24,12 +24,12 @@ https://github.com/prettier/eslint-config-prettier#installation
 3、npm set-script prepare "husky install"  
 4、npx husky add .husky/pre-commit "npx lint-staged"
 
-#### 编辑器设置
+### 编辑器设置
 
 1、安裝插件 Prettier - Code formatter  
 2、Vscode -》 首选项 -》 设置（搜索 save）-》 勾选 Editor: Format On Save 即可
 
-#### 遇到的问题
+### 遇到的问题
 
 1、A：eslint extends 配置 prettier  
 Q：https://github.com/prettier/eslint-config-prettier#installation  
