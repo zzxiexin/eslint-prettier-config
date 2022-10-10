@@ -20,7 +20,7 @@ pnpm eslint --init
 "lint": "eslint . --ext .vue,.js,.ts,.jsx,.tsx --fix"
 ```
 
-4、处理打开.eslintrc.js 处理报错
+4、处理打开.eslintrc.js 处理报错  
 Q: module is not defined
 A1: .eslintrc,js 属性 env 新增 node: true
 A2: .eslintrc.js 更改为.eslintrc.cjs
