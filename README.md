@@ -68,7 +68,7 @@ https://www.prettier.cn/playground
 4、新增脚本命令
 
 ```javascript
-"format": "prettier --write \"./**/*.{html,vue,ts,js,json,md}\"
+ "format": "prettier --write src/"
 ```
 
 5、安装 vscode 插件 Prettier - Code formatter
