@@ -16,8 +16,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "prepare": "husky install",
     "lint": "eslint . --ext .vue,.js,.ts,.jsx,.tsx --fix",
-    "format": "prettier --write src/ --config ./.prettierrc.json"
+    "format": "prettier --write src/"
   },
   "eslintConfig": {
     "extends": [
