@@ -21,11 +21,11 @@ pnpm eslint --init
 ```
 
 4、处理打开.eslintrc.js 处理报错  
-Q: module is not defined
-A1: .eslintrc,js 属性 env 新增 node: true
+Q: module is not defined  
+A1: .eslintrc,js 属性 env 新增 node: true  
 A2: .eslintrc.js 更改为.eslintrc.cjs
 
-Q: error 'React' must be in scope when using JSX react/react-in-jsx-scope;
+Q: error 'React' must be in scope when using JSX react/react-in-jsx-scope;  
 A: .eslintrc.js 属性 rules 新增"react/react-in-jsx-scope": "off"
 
 Q: React version not specified in eslint-plugin-react settings.  
