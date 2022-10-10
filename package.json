@@ -16,8 +16,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lint": "eslint",
-    "lint:fix": "eslint --fix",
+    "lint": "eslint . --ext .vue,.js,.ts,.jsx,.tsx --fix",
     "format": "prettier --write src/ --config ./.prettierrc.json"
   },
   "eslintConfig": {
@@ -39,19 +38,13 @@
     ]
   },
   "devDependencies": {
-    "eslint": "^8.23.0",
+    "@typescript-eslint/eslint-plugin": "^5.39.0",
+    "@typescript-eslint/parser": "^5.39.0",
+    "eslint": "^8.25.0",
     "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-react": "^7.31.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.31.9",
     "husky": "^8.0.1",
-    "lint-staged": "^13.0.3",
     "prettier": "^2.7.1"
-  },
-  "lint-staged": {
-    "src/*.{js,jsx,ts,tsx}": [
-      "npm run lint:fix"
-    ],
-    "src/*.{css,less,scss,md,json}": [
-      "npm run format"
-    ]
   }
 }
