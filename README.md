@@ -172,4 +172,5 @@ Q：https://blog.csdn.net/keepfriend/article/details/100858645
 A：https://www.anycodings.com/questions/eslintrcjs-module-is-not-defined   
 5、extends和plugins有什么区别   
 A：plugins是插件预设好的一些新的规则，默认会开启内部部分规则和关闭一些规则，可以按照自己需要去开启或者关闭,在rules去配置；   
-extends则是复用别人的规则;   
+extends则是复用别人的规则;  
+6、extens执行顺序是从左往右的；   
