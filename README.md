@@ -170,6 +170,6 @@ Q: https://stackoverflow.com/questions/42640636/react-must-be-in-scope-when-usin
 Q：https://blog.csdn.net/keepfriend/article/details/100858645  
 4、Q：.eslintrc.js module is not defined  
 A：https://www.anycodings.com/questions/eslintrcjs-module-is-not-defined
-5、extends和plugins有什么区别
-A：plugins是插件预设好的一些新的规则;
-extends则是复用别人的规则;
+5、extends和plugins有什么区别   
+A：plugins是插件预设好的一些新的规则;   
+extends则是复用别人的规则;   
