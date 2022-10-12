@@ -175,8 +175,12 @@ A：plugins是插件预设好的一些新的规则，默认会开启内部部分
 extends则是复用别人的规则;  
 6、Q: extens执行顺序是怎么样的？   
 A: 是从左往右的；   
-7、eslint或者prettier都可以封装一个自己的npm配置包，作为公用；   
+7、eslint或者prettier都可以封装一个自己的npm配置包，作为公用；
+Prettier config plugin:
 <img width="832" alt="image" src="https://user-images.githubusercontent.com/24984301/195373680-95aa882f-bb92-4159-ab0f-c92dfbcf0b58.png">
+<img width="791" alt="image" src="https://user-images.githubusercontent.com/24984301/195375749-d9b4833b-3c4a-4564-ba54-5f73bdf8d144.png">
+
+Eslint config plugin:
 <img width="885" alt="image" src="https://user-images.githubusercontent.com/24984301/195373997-4bc87eb3-efdd-4896-a701-1c91f51285b0.png">
 <img width="1168" alt="image" src="https://user-images.githubusercontent.com/24984301/195375522-778be418-d7db-4294-8f61-b9d1e1697aa7.png">
 
