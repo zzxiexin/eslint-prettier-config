@@ -162,15 +162,16 @@ pnpm husky add .husky/pre-commit "pnpm lint && pnpm format"
 
 ### 遇到的问题
 
-1、A：eslint extends 配置 prettier  
-Q：https://github.com/prettier/eslint-config-prettier#installation  
-2、A：'React' must be in scope when using JSX react/react-in-jsx-scope?  
-Q: https://stackoverflow.com/questions/42640636/react-must-be-in-scope-when-using-jsx-react-react-in-jsx-scope  
-3、A：eslint-plugin-react 报未指定 react 版本的 Warning: React version not specified in eslint-plugin-react settings.  
-Q：https://blog.csdn.net/keepfriend/article/details/100858645  
+1、Q：eslint extends 配置 prettier  
+A：https://github.com/prettier/eslint-config-prettier#installation  
+2、Q：'React' must be in scope when using JSX react/react-in-jsx-scope?  
+A: https://stackoverflow.com/questions/42640636/react-must-be-in-scope-when-using-jsx-react-react-in-jsx-scope  
+3、Q：eslint-plugin-react 报未指定 react 版本的 Warning: React version not specified in eslint-plugin-react settings.  
+A：https://blog.csdn.net/keepfriend/article/details/100858645  
 4、Q：.eslintrc.js module is not defined  
 A：https://www.anycodings.com/questions/eslintrcjs-module-is-not-defined   
-5、extends和plugins有什么区别   
+5、Q: extends和plugins有什么区别   
 A：plugins是插件预设好的一些新的规则，默认会开启内部部分规则和关闭一些规则，可以按照自己需要去开启或者关闭,在rules去配置；   
 extends则是复用别人的规则;  
-6、extens执行顺序是从左往右的；   
+6、Q: extens执行顺序是怎么样的？   
+A: 是从左往右的；   
